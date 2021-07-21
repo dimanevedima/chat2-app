@@ -1,0 +1,267 @@
+// '../../assets/img/readed.svg';
+.message {
+  display: flex;
+  //max-width: 440px;
+  margin-bottom: 22px;
+  //padding: 40px;
+
+  $self: &;
+
+  &__info{
+    display: flex;
+    //border: 1px solid #000;
+    //align-items: baseline;
+    flex-direction: row;
+  }
+  &__attachments{
+    margin-left: 5px;
+  //   display: grid;
+  //   grid-template-columns: repeat(2, 1fr);
+  // //  grid-gap: 2px;
+  // //  row-gap: 1px;
+  //   gap: 0;
+  //   row-gap: 0;
+  // //  border: 1px solid #000;
+  display: flex;
+  //order: 1;
+
+    &-item{
+  cursor: pointer;
+  position: relative;
+      img{
+        width: 45px;
+        height: 45px;
+        border-radius: 8px;
+      }
+    }
+  }
+  &__readed{
+    position: absolute;
+    img{
+      //width: 80px;
+    }
+    bottom: 0;
+    right: 0;
+  }
+	&__avatar {
+  display: flex;
+  flex-direction: column-reverse;
+    img{
+      border-radius: 50px;
+      width: 33px;
+      height: 33px;
+      margin-right: 13px;
+      overflow: hidden;
+      margin-bottom: 10px;
+
+    }
+    .avatar{
+      border-radius: 50px;
+      width: 33px;
+      height: 33px;
+      margin-right: 13px;
+      overflow: hidden;
+      margin-bottom: 10px;
+      font-size: 14px;
+      line-height: 33px;
+    }
+	}
+
+	&__content {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    position: relative;
+	}
+
+	&__bubble {
+    background: #5394fc;
+    box-shadow: 0px 5px 5px rgba(54, 116, 255, 0.196733);
+    border-radius: 12px 12px 12px 0px;
+    padding: 15px;
+    margin-bottom: 8px;
+    max-width: 400px;
+
+	}
+
+	&__text {
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+	}
+
+	&__date {
+    font-size: 12px;
+    opacity: 0.5;
+	}
+
+  &--isme{
+    display: flex;
+    flex-direction: row-reverse;
+    #{$self}__bubble{
+      background: #fff;
+      border: 1px solid #ececec;
+      box-shadow: 0 4px 4px rgba(0, 0, 0, 0.220444);
+      border-radius: 12px 12px 0 12px;
+      #{$self}__text{
+        color: #202020;
+      }
+    }
+
+    #{$self}__avatar {
+      img{
+        margin-right: 0;
+        margin-left: 13px;
+      }
+    }
+
+    #{$self}__date {
+      align-self: flex-end;
+    }
+
+    #{$self}__readed{
+      left: -15px;
+      img{
+        //width: 100px;
+      }
+    }
+  }
+
+  &--image{
+    #{$self}__attachments {
+      &-item {
+        img {
+          width: 150px;
+          height: 150px;
+        }
+      }
+    }
+  }
+
+  &--is-audio{
+
+    width: 300px;
+    #{$self}__bubble{
+      width: 280px;
+      position: relative;
+      overflow: hidden;
+      background: #3674ff;
+    }
+    audio {
+      display: none;
+    }
+    #{$self}__audio {
+
+    }
+
+    #{$self}__audio-progress {
+      position: absolute;
+      background-color: #418fff;
+      top: 0;
+      left: 0;
+      //width: 40%;
+      height: 100%;
+      //border: 1px solid #000;
+      transition: width 0.3s ease;
+    }
+
+    #{$self}__audio-info {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    #{$self}__audio-btn {
+      button{
+        cursor: pointer;
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        background: #0f3997;
+        border: none;
+        //padding: 5px;
+        img{
+          width: 13px;
+        }
+      }
+    }
+
+    #{$self}__audio-wave {
+
+    }
+
+    #{$self}__audio-duration {
+      color: #fff;
+      font-weight: 600;
+      opacity: 0.6;
+      font-size: 12px;
+    }
+
+  }
+
+
+}
+
+
+//animation
+
+.typing-indicator {
+  $ti-color-bg: #5394fc;
+  background-color: $ti-color-bg;
+  will-change: transform;
+  width: auto;
+  border-radius: 50px;
+  padding: 10px;
+  display: flex;
+  margin: 0 auto;
+  position: absolute;
+  top: -25px;
+  animation: 2s bulge infinite ease-out;
+
+  &::before,
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: -5px;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: $ti-color-bg;
+  }
+  &::after {
+    height: 5px;
+    width: 5px;
+    left: -10px;
+    bottom: -10px;
+  }
+  span {
+    height: 8px;
+    width: 8px;
+    float: left;
+
+    margin: 0 1px;
+    background-color: #fff;
+    display: block;
+    border-radius: 50%;
+    opacity: 0.4;
+    @for $i from 1 through 3 {
+      &:nth-of-type(#{$i}) {
+        animation: 1s blink infinite ($i * .3333s);
+      }
+    }
+  }
+}
+
+@keyframes blink {
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes bulge {
+  50% {
+    transform: scale(1.05);
+  }
+}

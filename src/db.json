@@ -1,0 +1,157 @@
+{
+  "dialogs": [
+
+    {
+      "_id": "35s60d44b3c5b81e5e9093a4eb1",
+      "text": "Deserunt proident ad adipisicing commodo excepteur enim amet. Et eiusmod magna nulla qui. Ad dolor est culpa fugiat laboris.",
+      "created_at": "Fri Jul 06 1973 20:23:42 GMT+0300 (Москва, стандартное время)",
+      "user": {
+        "_id": "35s60d44b3c5b81e5e9093a4eb1",
+        "userName": "Lottie Salazar",
+        "avatar": null
+        }
+    },
+
+    {
+      "_id": "h60d44be24980fac38b670532",
+      "text": "Magna dolore culpa esse enim cillum labore aute. Id ad voluptate cillum proident eiusmod et dolor mollit et. Minim magna do elit non ut nisi.",
+      "created_at": "Tue Jan 28 1986 17:24:02 GMT+0300 (Москва, стандартное время)",
+      "user": {
+        "_id": "h60d44be24980fac38b670532",
+        "userName": "Rosalyn Bradley",
+        "avatar": null
+      }
+    },
+
+    {
+      "_id": "6y0d44c903e797e1d479be0cd",
+      "text": "Voluptate tempor deserunt occaecat aliqua sint officia nisi nostrud laborum. Non quis enim proident proident culpa nisi consectetur. Qui in nostrud non occaecat consectetur ea magna quis eu qui.",
+      "created_at": "Thu May 27 1982 02:58:58 GMT+0400 (Москва, летнее время)",
+      "user": {
+        "_id": "6y0d44c903e797e1d479be0cd",
+        "userName": "Rogers Hebert",
+        "avatar": null
+      }
+    },
+
+    {
+      "_id": "6wb0d44cbdd723a2931a8e86f0",
+      "text": "Mollit pariatur consectetur minim aliqua consectetur. Nisi quis ut id Lorem duis. Nulla anim occaecat laborum sunt sunt non ipsum commodo minim.",
+      "created_at": "Wed Nov 06 2002 04:43:07 GMT+0300 (Москва, стандартное время)",
+      "user": {
+        "_id": "6wb0d44cbdd723a2931a8e86f0",
+        "userName": "Shawna Delacruz",
+        "avatar": null
+      }
+    },
+
+    {
+      "_id": "930d44cce0ac88c1378cfbb77",
+      "text": "Lorem occaecat amet Lorem consequat do. Tempor occaecat ad minim consectetur ex deserunt ea commodo incididunt commodo occaecat anim aliquip. Sit sit et velit id dolore velit Lorem aliqua sunt duis.",
+      "created_at": "Thu Sep 14 1989 03:02:18 GMT+0400 (Москва, летнее время)",
+      "user": {
+        "_id": "930d44cce0ac88c1378cfbb77",
+        "userName": "Gallagher Rose",
+        "avatar": null
+      }
+    },
+
+    {
+      "_id": "3fg1sd32d44cce0ac88c1378cfbb77",
+      "text": "Lorem occaecat amet Lorem consequat do. Tempor occaecat ad minim consectetur ex deserunt ea commodo incididunt commodo occaecat anim aliquip. Sit sit et velit id dolore velit Lorem aliqua sunt duis.",
+      "created_at": "Thu Sep 14 2020 03:02:18 GMT+0400 (Москва, летнее время)",
+      "user": {
+        "_id": "3fg1sd32d44cce0ac88c1378cfbb77",
+        "userName": "Ferfgtjtr qervd",
+        "avatar": null
+      }
+    },
+
+    {
+      "_id": "43ddq30d44cce0ac88c1378cfbb77",
+      "text": "Lorem occaecat amet Lorem consequat do. Tempor occaecat ad minim consectetur ex deserunt ea commodo incididunt commodo occaecat anim aliquip. Sit sit et velit id dolore velit Lorem aliqua sunt duis.",
+      "created_at": "Thu Sep 19 1997 03:02:18 GMT+0400 (Москва, летнее время)",
+      "user": {
+        "_id": "43ddq30d44cce0ac88c1378cfbb77",
+        "userName": "Erroeqdg Rose",
+        "avatar": null
+      }
+    },
+
+
+    {
+      "_id": "dh3230d44cce0ac88c1378cfbb77",
+      "text": "Lorem occaecat amet Lorem consequat do. Tempor occaecat ad minim consectetur ex deserunt ea commodo incididunt commodo occaecat anim aliquip. Sit sit et velit id dolore velit Lorem aliqua sunt duis.",
+      "created_at": "Thu Sep 14 1989 03:02:18 GMT+0400 (Москва, летнее время)",
+      "user": {
+        "_id": "dh3230d44cce0ac88c1378cfbb77",
+        "userName": "Sagrhllagher Rose",
+        "avatar": null
+      }
+    }
+
+  ],
+
+  "messages" : [
+    {
+      "_id": "35s60d44b3c5b81e5e9093a4eb1",
+      "text": "Lorem occaecat amet Lorem consequat do. Tempor occaecat ad minim consectetur ex deserunt ea commodo incididunt commodo occaecat anim aliquip. Sit sit et velit id dolore velit Lorem aliqua sunt duis.",
+      "created_at": "Thu Sep 14 1989 03:02:18 GMT+0400 (Москва, летнее время)",
+      "user": {
+        "_id": "23530d44cce0ac88c1378cfbb77",
+        "userName": "Sagrhllagher Rose",
+        "avatar": null
+        },
+    "dialog" : "35s60d44b3c5b81e5e9093a4eb1"
+  },
+
+  {
+    "_id": "35s60d44b3c5b81e5e9093a4eb1",
+    "text": "Lorem occaecat amet Lorem consequat do. Tempor occaecat ad minim consectetur ex deserunt ea commodo incididunt commodo occaecat anim aliquip. Sit sit et velit id dolore velit Lorem aliqua sunt duis.",
+    "created_at": "Thu Sep 14 1989 03:02:18 GMT+0400 (Москва, летнее время)",
+    "user": {
+      "_id": "23530d44cce0ac88c1378cfbb77",
+      "userName": "Sagrhllagher Rose",
+      "avatar": null
+      },
+  "dialog" : "35s60d44b3c5b81e5e9093a4eb1"
+},
+{
+  "_id": "35s60d44b3c5b81e5e9093a4eb1",
+  "text": "Lorem occaecat amet Lorem consequat do. Tempor occaecat ad minim consectetur ex deserunt ea commodo incididunt commodo occaecat anim aliquip. Sit sit et velit id dolore velit Lorem aliqua sunt duis.",
+  "created_at": "Thu Sep 14 1989 03:02:18 GMT+0400 (Москва, летнее время)",
+  "user": {
+    "_id": "23530d44cce0ac88c1378cfbb77",
+    "userName": "Sagrhllagher Rose",
+    "avatar": null
+    },
+"dialog" : "35s60d44b3c5b81e5e9093a4eb1"
+},
+{
+  "_id": "35s60d44b3c5b81e5e9093a4eb1",
+  "text": "Lorem occaecat amet Lorem consequat do. Tempor occaecat ad minim consectetur ex deserunt ea commodo incididunt commodo occaecat anim aliquip. Sit sit et velit id dolore velit Lorem aliqua sunt duis.",
+  "created_at": "Thu Sep 14 1989 03:02:18 GMT+0400 (Москва, летнее время)",
+  "user": {
+    "_id": "23530d44cce0ac88c1378cfbb77",
+    "userName": "Sagrhllagher Rose",
+    "avatar": null
+    },
+"dialog" : "35s60d44b3c5b81e5e9093a4eb1"
+},
+
+{
+  "_id": "35s60d44b3c5b81e5e9093a4eb1",
+  "text": "🎅 AWDF sgwe",
+  "created_at": "Thu Sep 14 1989 03:02:18 GMT+0400 (Москва, летнее время)",
+  "user": {
+    "_id": "23530d44cce0ac88c1378cfbb77",
+    "userName": "Sagrhllagher Rose",
+    "avatar": "https://sun9-6.userapi.com/s/v1/ig2/Peqo1Qu2BloCuoiSWrRZsuuWceVzlzXMm1RiSSQ-kwqsCDAG78rU9fCe_jobAAfBMOhvvEcQkIZmLJ-BvdP5SqEY.jpg?size=50x0&quality=96&crop=0,540,1620,1620&ava=1"
+    },
+"dialog" : "35s60d44b3c5b81e5e9093a4eb1"
+}
+  ]
+
+
+
+}

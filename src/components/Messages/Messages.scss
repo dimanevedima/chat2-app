@@ -1,0 +1,21 @@
+// .spin{
+//   position: absolute;
+//   top: 45%;
+//   left: 48%;
+//
+// }
+
+.messages--loading{
+  //text-align: center;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.messages{
+  height: 100%;
+  padding: 20px;
+  padding-bottom: 0;
+  overflow: auto;
+}

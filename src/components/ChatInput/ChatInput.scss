@@ -1,0 +1,56 @@
+.chat-input {
+  display: flex;
+  margin: 20px;
+  position: relative;
+  align-items: center;
+
+  button {
+    color: gray;
+  }
+  &__icon{
+    font-size: 20px;
+    opacity: 0.5;
+    cursor: pointer;
+    transition: opacity .15s ease-in-out;
+    &:hover{
+      opacity: 1;
+    }
+
+    &:active{
+      color: yellowgreen;
+    }
+  }
+	&__smile-btn {
+    margin-right: 15px;
+    &__icon{
+      margin-top: 11px;
+    }
+	}
+
+	&__actions {
+    display: flex;
+    cursor: pointer;
+    width: 70px;
+    justify-content: space-between;
+    margin-left: 20px;
+    .ant-btn{
+      &:hover{
+        opacity: 1;
+        color:red;
+      }
+    }
+	}
+
+  input{
+    &:focus{
+      box-shadow: none;
+    }
+  }
+
+}
+
+.chat-input__emoji-picker{
+  position: absolute;
+  bottom: 50px;
+  z-index: 1;
+}
